@@ -21,4 +21,15 @@ then
 
 fi
 
+brew install git
+brew install zsh
+brew install zsh-completions
+brew install tree
+brew install rbenv
+brew install yarn
+yarn policies set-version 1.12.3
+
+# Install essential casks
+brew cask install iterm2
+
 exit 0

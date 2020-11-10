@@ -16,6 +16,9 @@ defaults write com.apple.NetworkBrowser BrowseAllInterfaces 1
 # Always open everything in Finder's list view. This is important.
 defaults write com.apple.Finder FXPreferredViewStyle Nlsv
 
+# Show dot file in folder
+defaults write com.apple.Finder AppleShowAllFiles true
+
 # Show the ~/Library folder.
 chflags nohidden ~/Library
 

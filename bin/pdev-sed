@@ -1,0 +1,1 @@
+sed -e "s|localhost.ebisubook.com|pdev-$1.ebisubook.com|g" -e "s|localhost|pdev-$1.ebisubook.com|g" -e "s|127.0.0.1|pdev-$1.ebisubook.com|g" -e "s|\/mbook\/mware\/mysql|$WORKSPACE\/mysql|g" $WORKSPACE/env/pdev_appenv.conf > $WORKSPACE/env/.envrc
